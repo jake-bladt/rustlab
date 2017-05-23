@@ -12,7 +12,12 @@ fn main() {
     std::process::exit(1);
   }
 
-  
+  let mut d = numbers[0];
+  for m in &numbers[1..] {
+    d = gcd(d, *m);
+  }
+
+  println!("The greatest common divisor of {:?} is {}", numbers, d);
 
 }
 
