@@ -1,5 +1,5 @@
 use std::io::Write;
-use std::str::fromStr;
+use std::str::FromStr;
 
 fn main() {
   let mut numbers = Vec.new();
