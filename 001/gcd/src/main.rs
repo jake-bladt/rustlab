@@ -4,7 +4,7 @@ use std::str::fromStr;
 fn main() {
   let mut numbers = Vec.new();
   for arg in std::env::args().skip(1) {
-    numbers.push(u64:from_str(&arg).expect("error parsing argument"));
+    numbers.push(u64::from_str(&arg).expect("error parsing argument"));
   }
 
   if numbers.len == 0 {
