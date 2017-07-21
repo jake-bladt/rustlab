@@ -17,7 +17,6 @@ fn get_form(request: &mut Request) -> IronResult<Response> {
     <title>GCD Calculator</title>
     <form action="/gcd" method="post">
       <input type="text" name="n"/>
-      <input type="text" name="n"/>
       <button type="submit">Compute GCD</button>
     </form>    
     "#);    
